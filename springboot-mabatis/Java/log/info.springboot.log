@@ -1,0 +1,139 @@
+2018-05-21 14:38:19,037 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 50 - Starting SpringbootMabatisApplication on WACHEN7 with PID 9028 (C:\Users\wachen\workspace\springboot-mabatis\target\classes started by wachen in C:\Users\wachen\workspace\springboot-mabatis)
+2018-05-21 14:38:19,039 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 659 - No active profile set, falling back to default profiles: default
+2018-05-21 14:38:19,045 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6cde163d: startup date [Mon May 21 14:38:19 CST 2018]; root of context hierarchy
+2018-05-21 14:38:20,004 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8080 (http)
+2018-05-21 14:38:20,015 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-21 14:38:20,015 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-21 14:38:20,015 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-21 14:38:20,015 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-05-21 14:38:20,015 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-05-21 14:38:20,015 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-05-21 14:38:20,015 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-05-21 14:38:20,062 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-21 14:38:20,062 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 1017 ms
+2018-05-21 14:38:20,108 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-21 14:38:20,108 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-05-21 14:38:20,108 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-21 14:38:20,112 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-21 14:38:20,112 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-21 14:38:20,113 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-21 14:38:20,114 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 257 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-21 14:38:20,317 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:38:20,379 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6cde163d: startup date [Mon May 21 14:38:19 CST 2018]; root of context hierarchy
+2018-05-21 14:38:20,395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/save],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hp.controller.UserController.save(com.hp.model.User)
+2018-05-21 14:38:20,395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getOne],methods=[GET]}" onto public java.lang.String com.hp.controller.UserController.getOne(java.lang.Integer)
+2018-05-21 14:38:20,395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getOneShow],methods=[GET]}" onto public java.lang.String com.hp.controller.UserController.getPrimary(java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-21 14:38:20,395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getUsers],methods=[GET]}" onto public java.util.List<com.hp.model.User> com.hp.controller.UserController.getUsers(int,int)
+2018-05-21 14:38:20,395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-21 14:38:20,395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-21 14:38:20,421 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:38:20,422 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:38:20,523 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-21 14:38:20,551 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-21 14:38:20,551 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-21 14:38:20,551 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-05-21 14:38:20,567 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-21 14:38:20,567 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-21 14:38:20,598 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-21 14:38:20,598 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 59 - Started SpringbootMabatisApplication in 1.655 seconds (JVM running for 121.183)
+2018-05-21 14:38:20,598 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 56 - Condition evaluation unchanged
+2018-05-21 14:38:49,341 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-21 14:38:49,342 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-21 14:38:49,345 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+2018-05-21 14:38:49,350 [http-nio-8080-exec-1] INFO  com.hp.controller.UserController 38 - save user:User [user_id=null, user_name=kk, password=ck, phone=222222]
+2018-05-21 14:38:49,371 [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-2} inited
+2018-05-21 14:40:56,695 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 50 - Starting SpringbootMabatisApplication on WACHEN7 with PID 15888 (C:\Users\wachen\workspace\springboot-mabatis\target\classes started by wachen in C:\Users\wachen\workspace\springboot-mabatis)
+2018-05-21 14:40:56,695 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 659 - No active profile set, falling back to default profiles: default
+2018-05-21 14:40:56,797 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32556120: startup date [Mon May 21 14:40:56 CST 2018]; root of context hierarchy
+2018-05-21 14:40:59,514 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8080 (http)
+2018-05-21 14:40:59,549 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-21 14:40:59,580 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-21 14:40:59,580 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-21 14:40:59,595 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-05-21 14:40:59,595 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-05-21 14:40:59,595 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-05-21 14:41:00,659 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-05-21 14:41:00,857 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-21 14:41:00,862 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 4065 ms
+2018-05-21 14:41:01,196 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-21 14:41:01,198 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-05-21 14:41:01,204 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-21 14:41:01,206 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-21 14:41:01,210 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-21 14:41:01,211 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-21 14:41:01,211 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 257 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-21 14:41:02,058 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:41:02,428 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32556120: startup date [Mon May 21 14:40:56 CST 2018]; root of context hierarchy
+2018-05-21 14:41:02,547 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/save],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hp.controller.UserController.save(com.hp.model.User)
+2018-05-21 14:41:02,549 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getOneShow],methods=[GET]}" onto public java.lang.String com.hp.controller.UserController.getPrimary(java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-21 14:41:02,550 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getUsers],methods=[GET]}" onto public java.util.List<com.hp.model.User> com.hp.controller.UserController.getUsers(int,int)
+2018-05-21 14:41:02,551 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getOne],methods=[GET]}" onto public java.lang.String com.hp.controller.UserController.getOne(java.lang.Integer)
+2018-05-21 14:41:02,553 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-21 14:41:02,553 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-21 14:41:02,584 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:41:02,584 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:41:03,058 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-21 14:41:03,104 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-21 14:41:03,107 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-21 14:41:03,107 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-05-21 14:41:03,122 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-21 14:41:03,138 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-21 14:41:03,185 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-21 14:41:03,185 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 59 - Started SpringbootMabatisApplication in 7.189 seconds (JVM running for 7.953)
+2018-05-21 14:41:20,011 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-21 14:41:20,011 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-21 14:41:20,037 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-05-21 14:41:20,217 [http-nio-8080-exec-1] INFO  com.hp.controller.UserController 38 - save user:User [user_id=null, user_name=kk, password=ck, phone=222222]
+2018-05-21 14:41:20,626 [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-1} inited
+2018-05-21 14:53:11,483 [Thread-6] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32556120: startup date [Mon May 21 14:40:56 CST 2018]; root of context hierarchy
+2018-05-21 14:53:11,499 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown
+2018-05-21 14:53:11,499 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-21 14:53:11,499 [Thread-6] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-1} closed
+2018-05-21 14:53:11,964 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 50 - Starting SpringbootMabatisApplication on WACHEN7 with PID 15888 (C:\Users\wachen\workspace\springboot-mabatis\target\classes started by wachen in C:\Users\wachen\workspace\springboot-mabatis)
+2018-05-21 14:53:11,980 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 659 - No active profile set, falling back to default profiles: default
+2018-05-21 14:53:11,980 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63cda464: startup date [Mon May 21 14:53:11 CST 2018]; root of context hierarchy
+2018-05-21 14:53:12,816 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8080 (http)
+2018-05-21 14:53:12,826 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-21 14:53:12,826 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-21 14:53:12,826 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-21 14:53:12,826 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-05-21 14:53:12,826 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-05-21 14:53:12,826 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-05-21 14:53:12,826 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-05-21 14:53:12,873 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-21 14:53:12,873 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 893 ms
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-21 14:53:12,904 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 257 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-21 14:53:13,071 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:53:13,134 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63cda464: startup date [Mon May 21 14:53:11 CST 2018]; root of context hierarchy
+2018-05-21 14:53:13,134 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/save],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hp.controller.UserController.save(com.hp.model.User)
+2018-05-21 14:53:13,134 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getOneShow],methods=[GET]}" onto public java.lang.String com.hp.controller.UserController.getPrimary(java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-21 14:53:13,134 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getUsers],methods=[GET]}" onto public java.util.List<com.hp.model.User> com.hp.controller.UserController.getUsers(int,int)
+2018-05-21 14:53:13,134 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/user/getOne],methods=[GET]}" onto public java.lang.String com.hp.controller.UserController.getOne(java.lang.Integer)
+2018-05-21 14:53:13,149 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-21 14:53:13,149 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-21 14:53:13,149 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:53:13,149 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-21 14:53:13,290 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-21 14:53:13,321 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-21 14:53:13,321 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-21 14:53:13,321 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-05-21 14:53:13,337 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-21 14:53:13,352 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-21 14:53:13,368 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-21 14:53:13,368 [restartedMain] INFO  c.h.a.SpringbootMabatisApplication 59 - Started SpringbootMabatisApplication in 1.466 seconds (JVM running for 738.105)
+2018-05-21 14:53:13,368 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 56 - Condition evaluation unchanged
+2018-05-21 14:53:32,219 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-21 14:53:32,220 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-21 14:53:32,227 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2018-05-21 14:53:32,232 [http-nio-8080-exec-1] INFO  com.hp.controller.UserController 38 - save user:User [user_id=null, user_name=kk, password=ck, phone=222222]
+2018-05-21 14:53:32,254 [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-2} inited
+2018-05-21 14:55:11,054 [Thread-10] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63cda464: startup date [Mon May 21 14:53:11 CST 2018]; root of context hierarchy
+2018-05-21 14:55:11,060 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown
+2018-05-21 14:55:11,060 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-21 14:55:11,060 [Thread-10] INFO  c.alibaba.druid.pool.DruidDataSource 106 - {dataSource-2} closed
