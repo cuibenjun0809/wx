@@ -1,0 +1,34 @@
+package com.hp.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
+
+import com.hp.model.User;
+import com.hp.serializer.RedisObjectSerializer;
+
+/**
+ * 配置RedisTemplate
+ * @author ck
+ * @date 2018年5月22日 下午3:02:34
+ */
+@Configuration
+public class RedisConfig {
+	
+	@Bean
+	JedisConnectionFactory jedisConnectionFactory(){
+		return new JedisConnectionFactory();
+	}
+	
+	@Bean
+	public RedisTemplate<String, Object> redisTemplate(){
+		RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
+		redisTemplate.setConnectionFactory(jedisConnectionFactory());
+		redisTemplate.setKeySerializer(new StringRedisSerializer());
+		redisTemplate.setValueSerializer(new RedisObjectSerializer());
+		return redisTemplate;
+	}
+	
+}
